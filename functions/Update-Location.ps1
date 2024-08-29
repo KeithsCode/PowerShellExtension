@@ -9,8 +9,9 @@ function Update-Location {
 
     .NOTES
         New-Alias -Name 'cd' Update-Location
+
     .LINK
-        ld
+        Read-LocationHistory
     #>
     [CmdletBinding()]
     param(
