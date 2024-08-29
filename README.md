@@ -11,7 +11,7 @@ Get-BranchDetails - prompt addition for parsing Git repository stats (see profil
 Get-PublicIp - Returns public ip from ipify.org<br/>
 Read-LocationHistory - returns location traversal history stack (see Update-Location)<br/>
 Set-AltUser - emulation for Linux su<br/>
-Update-Location - cd replacement. adds directory traversal history to a stack to support emulation of Linux "cd -"<br/>
+Update-Location - replace cd and adds directory traversal history to a stack for Linux 'cd -' emulation<br/>
 
 ### Profile Examples<br/>
 #### basic:<br/>
