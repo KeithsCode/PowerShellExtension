@@ -1,12 +1,12 @@
-function Compare-Hash {
+function Compare-HashString {
   <#
   .SYNOPSIS
       Compares a file hash with a known value
 
   .DESCRIPTION
-      chash generates a file hash and compares it to a supplied hash string using the selected algorithm
+      Compate-HashString generates a file hash and compares it to a supplied hash string using the selected algorithm
   .Notes
-      New-Alias -Name 'chash' Compare-Hash
+      New-Alias -Name 'chash' Compare-HashString
   #>
   [CmdletBinding()]
   Param (
